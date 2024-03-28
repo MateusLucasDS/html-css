@@ -24,7 +24,7 @@ header{
     color: white;
 }
 header h1{
-    font-size: 7vw;
+    font-size: 3em;
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
@@ -46,7 +46,7 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-family: var(--fonte3);
-    font-size: 2.5vw;
+    font-size: 2em;
 }
 section p{
     line-height: 2em;
