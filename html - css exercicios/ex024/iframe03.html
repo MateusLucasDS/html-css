@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            padding: 0px;
+        }
+        iframe{
+            padding: 0px;
+            border: 2px solid black;
+            margin: auto;
+            display: block;
+            width: 1280px;
+            height: 720px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma Escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, atque? Voluptate quibusdam est eos impedit dignissimos alias nulla. Quae, veni.</p>
+    <ul>
+        <li><a href="paginas-extras/tabela01(iframe).html" target="frame">Primeira Opção</a></li>
+        <li><a href="paginas-extras/desafio 10/android.html" target="frame">Segunda Opção</a></li>
+        <li><a href="paginas-extras/desafio 12/index.html" target="frame">Terceira Opção</a></li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis numquam non doloribus ipsum, accusantium voluptates rem ratione sapiente consequuntur omnis voluptate illo asperiores?</p>
+    <iframe srcdoc="<h1>Clique nas Opções acima</h1>" name="frame" frameborder="0"></iframe>
+</body>
+</html>
