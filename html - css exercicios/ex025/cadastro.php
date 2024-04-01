@@ -1,0 +1,1 @@
+arquivo meramente ilustrativo
