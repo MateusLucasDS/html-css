@@ -20,6 +20,17 @@ header h1{
     text-align: center;
 }
 
+span#burger{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
+}
+
 menu ul{
     list-style-type: none;
     display: block;
